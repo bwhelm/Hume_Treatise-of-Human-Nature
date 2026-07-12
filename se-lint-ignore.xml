@@ -8,11 +8,6 @@
 			<reason>Editor's comment starts with lower case letter.</reason>
 		</ignore>
 	</file>
-	<file path="epigraph.xhtml">
-		<ignore code="s-046">
-			<reason>This is a Latin quote, but not a verse.</reason>
-		</ignore>
-	</file>
 	<file path="section-1-2-3.xhtml">
 		<ignore code="t-012">
 			<reason>Hume often puts notes before words.</reason>
