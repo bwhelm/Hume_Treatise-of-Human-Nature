@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* All epigraphs */
 [epub|type~="epigraph"]{
@@ -66,3 +67,9 @@ footer{
 	text-align: right;
 }
 /* End verses */
+
+/* Emphasis in Latin quotes */
+i[xml|lang~="la"] em{
+	font-style: normal;
+}
+/* End emphasis in Latin quotes */
