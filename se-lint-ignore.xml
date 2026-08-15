@@ -4,12 +4,6 @@
 		<ignore code="s-064">
 			<reason>Em-dash here indicates editor's comment and is not part of the citation.</reason>
 		</ignore>
-		<ignore code="t-013">
-			<reason>Citation; period should follow roman numeral.</reason>
-		</ignore>
-		<ignore code="t-029">
-			<reason>This is how Hume does citations.</reason>
-		</ignore>
 		<ignore code="t-057">
 			<reason>Editor's comment starts with lower case letter.</reason>
 		</ignore>
