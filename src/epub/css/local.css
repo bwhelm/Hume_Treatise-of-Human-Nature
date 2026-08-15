@@ -72,3 +72,13 @@ i[xml|lang~="la"] em{
 	font-style: normal;
 }
 /* End emphasis in Latin quotes */
+
+/* Format list with roman numerals */
+#section-3-2-6 ol{
+	list-style-type: upper-roman;
+}
+
+#section-3-2-6 ol > li{
+	margin-top: 1em;
+}
+/* End format list */
